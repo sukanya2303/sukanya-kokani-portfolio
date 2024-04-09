@@ -1,0 +1,133 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.intro h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.intro h1::before {
+  content: '';
+  display: block;
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  background: url('../img/detalhe.svg') no-repeat center;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+.intro img{
+  border-radius: 10px 60px 60px 10px;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  color: #525252;
+}
+.intro .btn{
+  background-color: #414141;
+  border-radius: 5px;
+  height: 50px;
+  border: none;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+.intro .btn:hover{
+  background-color: #5d5d5d;
+}
+.intro .btn a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+
+@media (max-width: 1000px) {
+  .intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 1.25rem;
+  }
+  .intro h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0;
+  }
+  .intro img{
+    border-radius: 10px 10px 60px 10px;
+  }
+  .intro .btn{
+    background-color: #414141;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+  .intro .btn:hover{
+    background-color: #5d5d5d;
+  }
+  .intro .btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 1.25rem;
+  }
+  .intro h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0;
+  }
+  .intro img{
+    border-radius: 10px 10px 60px 10px;
+  }
+  .intro .btn{
+    background-color: #414141;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+  .intro .btn:hover{
+    background-color: #5d5d5d;
+  }
+  .intro .btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+  }
+}
