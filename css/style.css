@@ -741,6 +741,9 @@ a.brand:focus{
 .contact-address{
   margin-top:5rem;
 }
+.contact-address h3{
+  font-size: 1.5rem;
+}
 
 #success,
 #error{
@@ -749,6 +752,12 @@ a.brand:focus{
 
 .form-group-message{
   display:none;
+}
+
+@media (min-width: 320px) and (max-width:591){
+  .contact-address h3 {
+    font-size: 0.2rem;
+  }
 }
 
 /* 2.2 Sidebar menu */
@@ -1130,7 +1139,7 @@ a.brand:focus{
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
 }
 
 .vertical-title{
