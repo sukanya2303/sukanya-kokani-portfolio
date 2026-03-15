@@ -1413,7 +1413,7 @@ a.brand:focus{
 
 .experience-number{
   font-family: 'Montserrat', sans-serif;
-  font-size:23.142rem;
+  font-size:18.142rem;
   line-height: 1;
   font-weight:400;
   color: #fff;
@@ -1431,6 +1431,9 @@ a.brand:focus{
   .experience-info{
     margin-top:-1px;
   }
+  /* .experience-number{
+    font-size: 2rem;
+  } */
 }
 
 .experience-info div{
