@@ -1620,7 +1620,7 @@ a.brand:focus{
 }
 
 .project-title{
-  font-size:3.68rem;
+  font-size:2.68rem;
   font-weight: 400;
   margin:0;
   color: #787676;
@@ -1673,13 +1673,13 @@ a.brand:focus{
   }
 
   .project-title{
-    font-size:4.68rem;
+    font-size:3.68rem;
   }
 
   .project-row a:after,
   .project-row a.active:after,
   .project-detail-row{
-    top:3rem;
+    top:2.2rem;
   }
 
   .project-number{
